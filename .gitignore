@@ -23,6 +23,8 @@ yarn-debug.log*
 # Ignore temporary files
 **/*.tmp
 **/tmp/
+**/__pycache__/
+**/*.pyc
 
 *.env
 

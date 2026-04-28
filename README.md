@@ -1,7 +1,8 @@
-# Hackofiesta6.0
-## * Traveasy
+# Traffic Optimizer (Traveasy)
 
-Traveasy is a next-generation traffic management and routing prototype that leverages real-time GPS data, historical traffic information, and predictive analytics to deliver dynamic routing, congestion heatmaps, and alternate route suggestions. Built during Hacko Fiesta, this project demonstrates a modern, responsive user interface.....
+Traffic Optimizer (Traveasy) is a full-stack smart mobility platform for Delhi NCR that combines real-time traffic insights, route planning, integrated commuter connectivity, smart parking availability, and carpooling support in one interface.
+
+The project includes a React frontend, Node.js/Express backend, Python-powered route utilities, and MongoDB-backed persistence for traffic, navigation history, parking, rides, and authentication workflows.
 
 ## Table of Contents
 
