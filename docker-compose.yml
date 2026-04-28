@@ -1,0 +1,15 @@
+services:
+  mongo:
+    image: mongo:7
+    container_name: traffic-optimizer-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    environment:
+      # No auth by default for local development
+      MONGO_INITDB_DATABASE: traffic_optimizer
+
+volumes:
+  mongo-data:
